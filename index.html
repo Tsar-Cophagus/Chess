@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chess Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+  <div id="board"></div>
+
+  <div id="settings-icon">⚙️</div>
+
+  <div id="settings-menu" class="hidden">
+    <h3>Settings</h3>
+
+    <label>Difficulty:</label>
+    <button class="difficulty" data-depth="1">Easy</button>
+    <button class="difficulty" data-depth="2">Medium</button>
+    <button class="difficulty" data-depth="3">Hard</button>
+    <button class="difficulty" data-depth="4">Expert</button>
+
+    <hr>
+
+    <button id="reset-btn">Reset Game</button>
+    <button id="close-settings">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
